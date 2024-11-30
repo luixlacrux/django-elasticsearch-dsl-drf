@@ -10,9 +10,9 @@ import copy
 from django.http import Http404
 from django.core.exceptions import ImproperlyConfigured
 
-from elasticsearch_dsl import Search
-from elasticsearch_dsl.connections import connections
-from elasticsearch_dsl.query import MoreLikeThis
+from elasticsearch7_dsl import Search
+from elasticsearch7_dsl.connections import connections
+from elasticsearch7_dsl.query import MoreLikeThis
 
 from rest_framework import status
 from rest_framework.decorators import action

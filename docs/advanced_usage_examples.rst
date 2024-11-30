@@ -235,7 +235,7 @@ Document index
 
     from django.conf import settings
     from django_elasticsearch_dsl import Document, Index, fields
-    from elasticsearch_dsl import analyzer
+    from elasticsearch7_dsl import analyzer
 
     from books.models import Book
 
@@ -697,7 +697,7 @@ view set in the following way:
 
     # ...
 
-    from elasticsearch_dsl import (
+    from elasticsearch7_dsl import (
         DateHistogramFacet,
         RangeFacet,
         TermsFacet,
@@ -2115,8 +2115,8 @@ The following example indicates Ngram analyzer/filter usage.
     from django.conf import settings
     from django_elasticsearch_dsl import Document, Index, fields
 
-    from elasticsearch_dsl import analyzer
-    from elasticsearch_dsl.analysis import token_filter
+    from elasticsearch7_dsl import analyzer
+    from elasticsearch7_dsl.analysis import token_filter
 
     from books.models import Book
 

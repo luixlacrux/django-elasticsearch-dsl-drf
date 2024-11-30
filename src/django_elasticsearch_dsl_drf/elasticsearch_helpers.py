@@ -1,4 +1,4 @@
-from elasticsearch import Elasticsearch
+from elasticsearch7 import Elasticsearch
 
 
 def get_all_indices(with_protected=False):

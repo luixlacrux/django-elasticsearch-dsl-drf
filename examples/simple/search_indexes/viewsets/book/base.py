@@ -25,7 +25,7 @@ from django_elasticsearch_dsl_drf.viewsets import (
     BaseDocumentViewSet,
 )
 
-from elasticsearch_dsl import DateHistogramFacet, RangeFacet
+from elasticsearch7_dsl import DateHistogramFacet, RangeFacet
 
 from ...documents import BookDocument
 from ...serializers import BookDocumentSimpleSerializer

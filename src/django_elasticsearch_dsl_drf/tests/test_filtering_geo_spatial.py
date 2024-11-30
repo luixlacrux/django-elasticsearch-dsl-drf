@@ -8,7 +8,7 @@ import unittest
 
 from django.core.management import call_command
 
-from elasticsearch.connection.base import TransportError
+from elasticsearch7.connection.base import TransportError
 
 from nine.versions import DJANGO_GTE_1_10
 

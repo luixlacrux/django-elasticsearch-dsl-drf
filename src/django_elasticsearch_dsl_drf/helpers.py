@@ -5,9 +5,9 @@ from collections import OrderedDict
 
 from django_elasticsearch_dsl.registries import registry
 
-from elasticsearch_dsl import Search
-from elasticsearch_dsl.connections import connections
-from elasticsearch_dsl.query import MoreLikeThis
+from elasticsearch7_dsl import Search
+from elasticsearch7_dsl.connections import connections
+from elasticsearch7_dsl.query import MoreLikeThis
 
 from six import PY3
 

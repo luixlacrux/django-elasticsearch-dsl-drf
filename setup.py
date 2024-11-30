@@ -159,8 +159,8 @@ install_requires = [
     'six>=1.9',
     'django-nine>=0.2',
     'django-elasticsearch-dsl>=6.4.1',
-    'elasticsearch-dsl',
-    'elasticsearch',
+    'elasticsearch7-dsl',
+    'elasticsearch7',
     'djangorestframework',
 ]
 
@@ -208,7 +208,7 @@ setup(
     keywords="django, elasticsearch, elasticsearch-dsl, django rest framework",
     author='Artur Barseghyan',
     author_email='artur.barseghyan@gmail.com',
-    url='https://github.com/barseghyanartur/django-elasticsearch-dsl-drf/',
+    url='https://github.com/luixlacrux/django-elasticsearch-dsl-drf/',
     package_dir={'': 'src'},
     packages=find_packages(where='./src'),
     license='GPL-2.0-only OR LGPL-2.1-or-later',

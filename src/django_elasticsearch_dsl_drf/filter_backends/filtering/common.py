@@ -4,7 +4,7 @@ Common filtering backend.
 
 import operator
 
-from elasticsearch_dsl.query import Q
+from elasticsearch7_dsl.query import Q
 from rest_framework.filters import BaseFilterBackend
 from django_elasticsearch_dsl import fields
 
